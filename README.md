@@ -1,3 +1,10 @@
+# SobControle specific version, ignore this
+
+Install using
+
+`npm install -g https://github.com/SobControleRastreamento/meteor-up-legacy.git`
+
+
 # Meteor Up
 
 > This version is no longer maintaining.<br/>
