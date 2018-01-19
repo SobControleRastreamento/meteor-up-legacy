@@ -108,6 +108,9 @@ else
   sudo npm install bcrypt
 fi
 
+# Fix bcrypt
+sudo rm -r ./npm/npm-bcrypt/node_modules/bcrypt && sudo npm install bcrypt@0.7.8
+
 cd /opt/<%= appName %>/
 
 # remove old app, if it exists
